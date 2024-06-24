@@ -52,8 +52,8 @@
             }
 
             // Close statement and database connection
-            $stmt = null; // Close statement
-            $conn = null; // Close connection
+            $stmt = null; 
+            $conn = null; 
             ?>
             </tbody>
         </table>

@@ -56,8 +56,7 @@ foreach ($lines as $line) {
     }
 }
 
-// Skip header (assuming the first line is a header)
-$xdata_ctr = 0;  // Start from 0 since there's no header
+$xdata_ctr = 0;  
 $xarr_count = count($xarr_file);
 
 // Database connection using PDO

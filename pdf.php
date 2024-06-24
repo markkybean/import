@@ -50,10 +50,10 @@ function generateHTMLTable() {
     }
 
     // Close statement and database connection
-    $stmt = null; // Close statement
-    $conn = null; // Close connection
+    $stmt = null; 
+    $conn = null; 
 
-    $html = ob_get_clean(); // Get the buffered output
+    $html = ob_get_clean(); 
 
     return $html;
 }
